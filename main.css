@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-}
-
 .z0 {
     width: 100%;
     height: 100%;
@@ -9,13 +5,13 @@ body {
 }
 
 .z0.z1 {
-    width: 200%;
-    transition: width 0.5s ease;
+    width: 150%;
+    transition: width 1s ease;
     scroll-behavior: smooth;
 }
 
 .z0.z1.z2 {
-    width: 400%;
-    transition: width 0.5s ease;
+    width: 300%;
+    transition: width 1s ease;
     scroll-behavior: smooth;
 }
