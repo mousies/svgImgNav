@@ -5,19 +5,19 @@ $(document).ready(function () {
         var mouseX = e.pageX;
         var mouseY = e.pageY;
 
-        var svgImg = $('img');
+        var zDiv = $('.z0');
 
         if (state == 0) {
-            svgImg.addClass('z1');
+            zDiv.addClass('z1');
             state++;
 
         } else if (state == 1) {
-            svgImg.addClass('z2');
+            zDiv.addClass('z2');
             state++;
 
         } else if (state == 2) {
-            svgImg.removeClass('z1 z2');
+            zDiv.removeClass('z1 z2');
             state = 0;
         }
     });
-});
+})
