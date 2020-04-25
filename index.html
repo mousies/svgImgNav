@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Treatment Journey</title>
+
+    <link href="main.css" type="text/css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <img class="z0" src="data/svg/journey.svg" />
+    </div>
+
+    <script>
+        var state = 0;
+
+        $(function () {
+            $('#container').on('click', function (e) {
+                if (state == 0) {
+                    $('img').addClass('z1');
+                    state++;
+                } else if (state == 1) {
+                    $('img').addClass('z2');
+                    state++;
+                } else if (state == 2) {
+                    $('img').removeClass('z1 z2');
+                    state = 0;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
