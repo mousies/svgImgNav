@@ -1,21 +1,35 @@
 .z0 {
     width: 100%;
-    height: 100%;
-    transition: width 0.5s ease;
+
     -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+
+    /* Fixing blurry images upon zoom */
     image-rendering: auto;
 }
 
 .z0.z1 {
     width: 150%;
-    transition: width 1s ease;
+
     -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+
+    /* Fixing blurry images upon zoom */
     image-rendering: auto;
 }
 
 .z0.z1.z2 {
     width: 300%;
-    transition: width 1s ease;
+
     -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+
+    /* Fixing blurry images upon zoom */
     image-rendering: auto;
 }
