@@ -3,16 +3,19 @@
     height: 100%;
     transition: width 0.5s ease;
     -webkit-transition: 0.5s ease;
+    image-rendering: auto;
 }
 
 .z0.z1 {
     width: 150%;
     transition: width 1s ease;
     -webkit-transition: 1s ease;
+    image-rendering: auto;
 }
 
 .z0.z1.z2 {
     width: 300%;
     transition: width 1s ease;
     -webkit-transition: 1s ease;
+    image-rendering: auto;
 }
