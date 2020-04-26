@@ -1,34 +1,34 @@
 .z0 {
     width: 100%;
 
-    -webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    transition: 0.5s ease;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+    transition: width 0.5s ease;
 
     /* Fixing blurry images upon zoom */
     image-rendering: auto;
 }
 
 .z0.z1 {
-    width: 150%;
+    width: 200%;
 
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+    transition: width 0.5s ease;
 
     /* Fixing blurry images upon zoom */
     image-rendering: auto;
 }
 
-.z0.z1.z2 {
+.z0.z2 {
     width: 300%;
 
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+    transition: width 0.5s ease;
 
     /* Fixing blurry images upon zoom */
     image-rendering: auto;
